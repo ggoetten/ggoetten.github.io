@@ -104,21 +104,6 @@ var projectCards;
       projectCards = $(".filtr-projects").filterizr({ layout: 'sameWidth' });
     }
 
-    function showGithubStars() {
-      // fix the github button class
-      // we had set it to github-button-inactive in projects holder cards so that respective javascript
-      // don't render it and replace respective span with shadow root
-      let githubButtons = document.getElementsByClassName("github-button-inactive");
-      while (githubButtons.length > 0) {
-        if (githubButtons[0].classList != undefined) {
-          githubButtons[0].classList.replace("github-button-inactive", "github-button");
-        }
-      }
-      // now render github button. it will call the github API and fill the respective fields
-      renderGithubButton();
-    }
-    showGithubStars();
-
     // ==================== Adjust height of the recent-posts card =============
 
     function adjustRecentPostsHeight() {
