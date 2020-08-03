@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ggoetten.github.io/</loc>
+    <loc>https://ggoetten.github.io/</loc>
     <lastmod>2020-10-05T00:00:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/teaching/</loc>
+    <loc>https://ggoetten.github.io/teaching/</loc>
     <lastmod>2020-10-05T00:00:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/teaching/physico-chemistry/</loc>
+    <loc>https://ggoetten.github.io/teaching/physico-chemistry/</loc>
     <lastmod>2020-10-05T00:00:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ftcel-2020/</loc>
+    <loc>https://ggoetten.github.io/publications/ftcel-2020/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/injectable-2020/</loc>
+    <loc>https://ggoetten.github.io/publications/injectable-2020/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/</loc>
+    <loc>https://ggoetten.github.io/publications/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/pinhaobarrinha-2020/</loc>
+    <loc>https://ggoetten.github.io/publications/pinhaobarrinha-2020/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/uni-free-2020/</loc>
+    <loc>https://ggoetten.github.io/publications/uni-free-2020/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/biooil/</loc>
+    <loc>https://ggoetten.github.io/publications/biooil/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ceramic/</loc>
+    <loc>https://ggoetten.github.io/publications/ceramic/</loc>
     <lastmod>2019-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ipnhydrogel/</loc>
+    <loc>https://ggoetten.github.io/publications/ipnhydrogel/</loc>
     <lastmod>2019-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/spheres/</loc>
+    <loc>https://ggoetten.github.io/publications/spheres/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/yerba-mate/</loc>
+    <loc>https://ggoetten.github.io/publications/yerba-mate/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/tribotinb/</loc>
+    <loc>https://ggoetten.github.io/publications/tribotinb/</loc>
     <lastmod>2019-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/teaching/biomaterials/</loc>
+    <loc>https://ggoetten.github.io/teaching/biomaterials/</loc>
     <lastmod>2019-03-15T00:00:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/peek/</loc>
+    <loc>https://ggoetten.github.io/publications/peek/</loc>
     <lastmod>2019-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/electrospun/</loc>
+    <loc>https://ggoetten.github.io/publications/electrospun/</loc>
     <lastmod>2019-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/tailoring/</loc>
+    <loc>https://ggoetten.github.io/publications/tailoring/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/electrospinning/</loc>
+    <loc>https://ggoetten.github.io/publications/electrospinning/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/orientationft/</loc>
+    <loc>https://ggoetten.github.io/publications/orientationft/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/compositecryogels2018/</loc>
+    <loc>https://ggoetten.github.io/publications/compositecryogels2018/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/synthinvivo/</loc>
+    <loc>https://ggoetten.github.io/publications/synthinvivo/</loc>
     <lastmod>2018-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/bonechitosan2018/</loc>
+    <loc>https://ggoetten.github.io/publications/bonechitosan2018/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/structurecellulose/</loc>
+    <loc>https://ggoetten.github.io/publications/structurecellulose/</loc>
     <lastmod>2018-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/healingsuture/</loc>
+    <loc>https://ggoetten.github.io/publications/healingsuture/</loc>
     <lastmod>2017-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/controlledrelease/</loc>
+    <loc>https://ggoetten.github.io/publications/controlledrelease/</loc>
     <lastmod>2017-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/maomecprop/</loc>
+    <loc>https://ggoetten.github.io/publications/maomecprop/</loc>
     <lastmod>2017-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ttaomctio2/</loc>
+    <loc>https://ggoetten.github.io/publications/ttaomctio2/</loc>
     <lastmod>2016-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/bioactiveft2016/</loc>
+    <loc>https://ggoetten.github.io/publications/bioactiveft2016/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/propolishydrogels2016/</loc>
+    <loc>https://ggoetten.github.io/publications/propolishydrogels2016/</loc>
     <lastmod>2016-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/novelph/</loc>
+    <loc>https://ggoetten.github.io/publications/novelph/</loc>
     <lastmod>2015-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/smarthydrogels/</loc>
+    <loc>https://ggoetten.github.io/publications/smarthydrogels/</loc>
     <lastmod>2015-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/preparation/</loc>
+    <loc>https://ggoetten.github.io/publications/preparation/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ticapshot2014/</loc>
+    <loc>https://ggoetten.github.io/publications/ticapshot2014/</loc>
     <lastmod>2014-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/mechproppt/</loc>
+    <loc>https://ggoetten.github.io/publications/mechproppt/</loc>
     <lastmod>2012-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/ti-nano/</loc>
+    <loc>https://ggoetten.github.io/publications/ti-nano/</loc>
     <lastmod>2010-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/tribotio2/</loc>
+    <loc>https://ggoetten.github.io/publications/tribotio2/</loc>
     <lastmod>2010-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/publications/elasticcap2009/</loc>
+    <loc>https://ggoetten.github.io/publications/elasticcap2009/</loc>
     <lastmod>2009-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/403/</loc>
+    <loc>https://ggoetten.github.io/403/</loc>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/404/</loc>
+    <loc>https://ggoetten.github.io/404/</loc>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/categories/</loc>
+    <loc>https://ggoetten.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://ggoetten.github.io/tags/</loc>
+    <loc>https://ggoetten.github.io/tags/</loc>
   </url>
   
 </urlset>
