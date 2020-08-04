@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on de Lima, G. G.</title>
-    <link>https://ggoetten.github.io/teaching/</link>
+    <link>http://ggoetten.github.io/teaching/</link>
     <description>Recent content in Teaching on de Lima, G. G.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +1100</lastBuildDate>
     
-	<atom:link href="https://ggoetten.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ggoetten.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tópicos Especiais em Engenharia e Ciência dos Materiais III – Físico química das superfícies</title>
-      <link>https://ggoetten.github.io/teaching/physico-chemistry/</link>
+      <link>http://ggoetten.github.io/teaching/physico-chemistry/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:00 +1100</pubDate>
       
-      <guid>https://ggoetten.github.io/teaching/physico-chemistry/</guid>
+      <guid>http://ggoetten.github.io/teaching/physico-chemistry/</guid>
       <description>&lt;p&gt;This post-graduate level on Physical chemistry of surfaces.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tópicos Especiais em Engenharia e Ciência dos Materiais III – Biomaterials</title>
-      <link>https://ggoetten.github.io/teaching/biomaterials/</link>
+      <link>http://ggoetten.github.io/teaching/biomaterials/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +1100</pubDate>
       
-      <guid>https://ggoetten.github.io/teaching/biomaterials/</guid>
+      <guid>http://ggoetten.github.io/teaching/biomaterials/</guid>
       <description>&lt;p&gt;This post-graduate level on biomaterials and the current materials used and challenges.&lt;/p&gt;</description>
     </item>
     

@@ -491,7 +491,7 @@ bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before, .bigfoot-footn
 #topbar {
 	background: #fff;
 	padding:0px;
-	margin:10ex;
+	margin-top:10ex;
 	/* border-bottom: 3px solid #36454f; */
 }
 #topbar .navbar {padding-bottom:14px;
@@ -795,7 +795,7 @@ img.right {
 	#topbar .navbar {padding-bottom:12px; font-size:120%; }
 	#topbar .navbar li {float:left; margin-left:1.1em;}
     #banner { text-align: center; margin-bottom: 1.5em; }
-	#footer section, #footer nav { float: none; text-align:center;}
+	#footer section, #footer nav { float: none; text-align:center; margin:0ex}
 	#footer nav ul { margin-top: 1em; text-align:center;}
 	#footer nav ul li { margin: 0; margin-right: 1em;}
 	.dateblock {text-align:center;}
@@ -806,12 +806,28 @@ img.right {
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .wrapper { width: 748px; }
+	#topbar .navbar {padding-bottom:12px; font-size:120%; margin:0ex}
+	#topbar .navbar li {float:left; margin-left:0em; margin:0ex}
+    #banner { text-align: center; margin-bottom: 1.5em; margin:0ex}
+	#footer section, #footer nav { float: none; text-align:center;}
+	#footer nav ul { margin-top: 1em; text-align:center;}
+	#footer nav ul li { margin: 0; margin-right: 1em;}
+	.dateblock {text-align:center;}
+	h1, h2, h3, h4, h5, form, input {text-align:center;}
 }
 
 /* =Mobile (Landscape)
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.wrapper { width: 420px; }
+	#topbar .navbar {padding-bottom:12px; font-size:120%; margin:0ex}
+	#topbar .navbar li {float:left; margin-left:0em;margin:0ex}
+    #banner { text-align: center; margin-bottom: 0em; margin:0ex}
+	#footer section, #footer nav { float: none; text-align:center;}
+	#footer nav ul { margin-top: 1em; text-align:center;}
+	#footer nav ul li { margin: 0; margin-right: 1em;}
+	.dateblock {text-align:center;}
+	h1, h2, h3, h4, h5, form, input {text-align:center;}
 }
 
 

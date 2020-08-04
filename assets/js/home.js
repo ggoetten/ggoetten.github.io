@@ -92,11 +92,7 @@ var projectCards;
     if (filterButtons != null) {
       var btns = filterButtons.children;
 
-      for (let i = 0; i < btns.length; i++) {
-        btns[i].onclick = function () {
-          showGithubStars(btns[i].id);
-        }
-      }
+
     }
 
     var projectCardHolder = document.getElementById("project-card-holder");
