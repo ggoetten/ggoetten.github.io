@@ -6,10 +6,15 @@
     <description>Recent content in Teaching on de Lima, G. G.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +1100</lastBuildDate>
-    
-	<atom:link href="https://ggoetten.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +1100</lastBuildDate><atom:link href="https://ggoetten.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Termodinâmica dos materiais</title>
+      <link>https://ggoetten.github.io/teaching/termo/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +1100</pubDate>
+      
+      <guid>https://ggoetten.github.io/teaching/termo/</guid>
+      <description>&lt;p&gt;This is a post-graduate level on Thermodynamics of materials.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Tópicos Especiais em Engenharia e Ciência dos Materiais III – Físico química das superfícies</title>
