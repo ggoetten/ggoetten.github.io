@@ -6,14 +6,15 @@
     <description>Recent content on de Lima, G. G.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Mar 2023 10:00:00 -0400</lastBuildDate><atom:link href="https://ggoetten.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +1100</lastBuildDate><atom:link href="https://ggoetten.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vídeo apresentação serra fita nitretada por plasma frio</title>
       <link>https://ggoetten.github.io/videos/teste4/</link>
       <pubDate>Thu, 11 Aug 2022 10:00:00 -0400</pubDate>
       
       <guid>https://ggoetten.github.io/videos/teste4/</guid>
-      <description>This is some text.</description>
+      <description>This is some text.
+ </description>
     </item>
     
     <item>
@@ -77,6 +78,15 @@
       
       <guid>https://ggoetten.github.io/videos/teste3/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Física Geral II</title>
+      <link>https://ggoetten.github.io/teaching/fisica-geral/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +1100</pubDate>
+      
+      <guid>https://ggoetten.github.io/teaching/fisica-geral/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -631,7 +641,7 @@ One possible way to reduce the environmental impacts of pesticides is by nanostr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ggoetten.github.io/404/</guid>
-      <description> 404: File not found Sorry, that doesn&#39;t seem to be here </description>
+      <description>404: File not found Sorry, that doesn&#39;t seem to be here   This photo was actually on my Ph.D. presentation to demonstrate how hard it was to write a paper with some results I found.</description>
     </item>
     
   </channel>
