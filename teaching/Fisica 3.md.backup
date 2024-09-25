@@ -1,0 +1,104 @@
+---
+title: Física 3
+date: "2024-08-11T00:00:00+11:00"
+enddate: "2024-12-08T00:00:00+11:00"
+publishdate: "2024-08-02"
+host: "UNESP"
+duration: 7776000
+description: Física para químicas.
+icon: "fab fa-github"
+---
+
+Examinar, conhecer e interpretar conceitos de Física básica aplicando-os à Química.
+
+<!--more-->
+<style>
+    /* Scoped styling for the markdown content */
+    #markdown-content {
+        font-family: 'Verdana', sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #markdown-content h2 {
+        font-family: 'Verdana', sans-serif;
+        font-size: 24px;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    #markdown-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #markdown-content li {
+        margin-bottom: 15px;
+    }
+
+    #markdown-content a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #2980b9;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    #markdown-content a:hover {
+        color: #3498db;
+        transform: translateX(5px);
+    }
+
+    #markdown-content a i {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    #markdown-content .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    #markdown-content .button:hover {
+        background-color: #2980b9;
+        transform: scale(1.05);
+    }
+</style>
+
+<body>
+    <div id="markdown-content">
+        <div class="section">
+            <h2>Aula 23 - Física 1</h2>
+            <ul>
+                <li><a href="http://ggoetten.github.io/files/teaching/PLANO DE AULA-24.pdf"><i class="fas fa-file-pdf"></i> Plano de Aula</a></li>
+                <li><a href="https://www.walter-fendt.de/html5/phpt/accircuits_pt.htm" class="button"><i class="fas fa-bolt"></i> Applet: Demonstração de fasores para elementos do circuito com CA</a></li>
+                <li><a href="https://ngsir.netfirms.com/j/Eng/RLC/RLC_js.htm" class="button"><i class="fas fa-bolt"></i> Applet: Ressonância em circuito RLC com CA</a></li>
+            </ul>
+            <h3>Exercício de Simulação de Ressonância</h3>
+            <p>Utilizando o applet de ressonância, simule diferentes valores de capacitância e indutância. Observe como as alterações afetam a frequência de ressonância.</p>
+            <ul>
+                <li><strong>Passo 1:</strong> Modifique o valor da capacitância (C) e observe a mudança na frequência de ressonância.</li>
+                <li><strong>Passo 2:</strong> Agora, altere o valor da indutância (L) e veja como isso também influencia a frequência.</li>
+                <li><strong>Passo 3:</strong> Anote como a frequência muda ao variar C e L.</li>
+                <li><strong>Pergunta:</strong> Qual é a razão para as alterações na frequência ao modificar C e L? Explique como isso se relaciona com a equação de ressonância.</li>
+            </ul>
+        </div>
+    </div>
+</body>
