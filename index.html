@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.92.2" />
-    <title>de Lima, G. G.</title>
-        <meta name="description" content="">
+	<meta name="generator" content="Hugo 0.140.2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de Lima, G. G.</title>    <meta name="description" content="">
 <meta name="keywords" content="">
 
 
@@ -15,7 +16,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <base href="https://ggoetten.github.io">
+    <base href="http://localhost:1313/">
     <title> de Lima, G. G. </title>
 
 
@@ -23,7 +24,7 @@
 <link rel="stylesheet" href="/assets/css/main.css" />
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="stylesheet" href="/assets/css/navigators/navbar.css" />
-<link rel="canonical" href="https://ggoetten.github.io/">
+<link rel="canonical" href="http://localhost:1313/">
 <link rel="stylesheet" href="/assets/css/academicons.min.css"/>
 
 
@@ -36,659 +37,1357 @@
 
 
 <link rel="stylesheet" href="/assets/css/style.css" />
-
-    <link rel="stylesheet" href="/assets/css/sections/home.css" />
-    <link rel="stylesheet" href="/assets/css/sections/about.css" />
-    <link rel="stylesheet" href="/assets/css/sections/skills.css" />
-    <link rel="stylesheet" href="/assets/css/sections/experiences.css" />
-    <link rel="stylesheet" href="/assets/css/sections/projects.css" />
-    <link rel="stylesheet" href="/assets/css/sections/recent-posts.css" />
-    <link rel="stylesheet" href="/assets/css/sections/achievements.css" />
-	<link rel="stylesheet" href="/assets/css/academicons.min.css"/>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,700&family=Work+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     
-	
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MXX36Y5PLL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <style>
+      :root {
+        --ink: #0a0a0a;
+        --charcoal: #1a1a1a;
+        --smoke: #404040;
+        --ash: #737373;
+        --paper: #fafafa;
+        --white: #ffffff;
+        --ruby: #e11d48;
+        --azure: #17a2b8;
+        --amber: #f59e0b;
+        --grid-color: rgba(0, 0, 0, 0.03);
+        --section-padding: clamp(40px, 8vw, 80px);
+        --container-padding: clamp(15px, 3vw, 120px);
+      }
+      
+      html, body { 
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
 
-  gtag('config', 'G-MXX36Y5PLL');
-</script>
+      body { 
+        font-family: 'Work Sans', sans-serif; 
+        background-color: var(--white); 
+        color: var(--ink);
+        line-height: 1.4;
+        -webkit-font-smoothing: antialiased;
+      }
 
+       
+      .bg-blueprint {
+        background-image: 
+          linear-gradient(var(--grid-color) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+        background-size: 30px 30px;
+      }
+
+       
+       
+      
+       
+      .hero {
+        min-height: 90vh;
+        padding-top: clamp(20px, 1.5vh, 30px);
+        padding-bottom: clamp(80px, 12vh, 150px);
+        background: 
+          linear-gradient(135deg, rgba(23, 162, 184, 0.015) 0%, rgba(245, 158, 11, 0.01) 50%, rgba(225, 29, 72, 0.015) 100%),
+          var(--white);
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        bottom: 0; left: 0; width: 100%; height: 1px;
+        background: linear-gradient(90deg, transparent, #ddd, transparent);
+      }
+
+      .hero-title {
+        font-family: 'Cormorant Garamond', serif;
+         
+        font-size: clamp(3.5rem, 10vw, 7rem);
+        line-height: 0.95;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        margin-bottom: 1.5rem;
+      }
+
+      .hero-title .accent {
+        display: block;
+        font-style: italic;
+        background: linear-gradient(120deg, var(--ruby) 0%, var(--amber) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 0.2rem;
+      }
+
+      .hero-subtitle {
+        font-size: clamp(1rem, 2vw, 1.3rem);
+        font-weight: 400;
+        color: var(--smoke);
+        margin-bottom: 2rem;
+        max-width: 500px;
+        position: relative;
+        padding-left: 20px;
+      }
+      
+      .hero-subtitle::before {
+        content: ""; 
+        position: absolute; 
+        left: 0; 
+        top: 5px; 
+        bottom: 5px; 
+        width: 3px; 
+        background: var(--azure);
+      }
+
+      .hero-visual { 
+        position: relative; 
+        width: 100%; 
+        max-width: 400px; 
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .hero-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        filter: grayscale(20%);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+        border: 4px solid var(--white);
+        display: block;
+      }
+
+      .hero-stat {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        gap: 20px;
+        z-index: 10;
+      }
+      
+      .stat-box {
+        background: var(--ink);
+        color: white;
+        padding: 12px 18px;
+        border-radius: 0;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        text-align: center;
+        min-width: 115px;
+      }
+      
+      .stat-box .stat-number {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1;
+        display: block;
+        margin-bottom: 6px;
+      }
+      
+      .stat-box .stat-label {
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 800;
+        line-height: 1.3;
+      }
+
+       
+      .scroll-indicator {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3.5rem;
+        color: var(--ruby);
+        animation: bounce 2s infinite;
+        cursor: pointer;
+        opacity: 1;
+        text-decoration: none;
+        z-index: 20;
+        pointer-events: auto;
+      }
+      
+      .scroll-indicator i {
+        pointer-events: none;
+      }
+
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateX(-50%) translateY(0);}
+        40% {transform: translateX(-50%) translateY(-10px);}
+        60% {transform: translateX(-50%) translateY(-5px);}
+      }
+
+      @media (max-width: 991px) {
+        .hero { 
+          text-align: center; 
+          padding-top: 60px;
+          padding-bottom: 100px;
+        }
+        .hero-title {
+          font-size: clamp(2.5rem, 7vw, 4rem);
+        }
+        .hero-visual { 
+          margin: 15px auto 0; 
+          max-width: 250px;
+        }
+        .hero-img {
+          width: 220px;
+          height: 220px;
+        }
+        .hero-stat {
+          position: relative;
+          bottom: auto;
+          right: auto;
+          margin-top: 15px;
+          justify-content: center;
+        }
+        .hero-subtitle { 
+          margin-left: auto; 
+          margin-right: auto; 
+          padding-left: 0;
+        }
+        .hero-subtitle::before {
+          display: none;
+        }
+        .hero-buttons { 
+          justify-content: center; 
+        }
+      }
+
+       
+      .pillar-row {
+        margin-top: clamp(-30px, -5vw, -50px);
+        position: relative;
+        z-index: 20;
+        padding-bottom: clamp(20px, 4vw, 40px);  
+      }
+      
+      .pillar-card {
+        background: var(--white);
+        border: 1px solid #eee;
+        padding: 25px;
+        transition: 0.3s;
+        border-top: 4px solid var(--charcoal);
+        height: 100%;
+      }
+      
+      .pillar-card:hover { 
+        border-top-color: var(--azure); 
+        transform: translateY(-5px); 
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+      }
+      
+      .pillar-icon { 
+        font-size: 1.5rem; 
+        color: var(--azure); 
+        margin-bottom: 10px; 
+      }
+      
+      .pillar-title { 
+        font-family: 'Cormorant Garamond', serif; 
+        font-size: 1.4rem; 
+        font-weight: 700; 
+        margin-bottom: 8px; 
+      }
+
+       
+      .hub-section { 
+        background: var(--paper); 
+        border-bottom: 1px solid #eee;
+        padding-top: clamp(20px, 4vw, 40px);  
+        padding-bottom: var(--section-padding);
+      }
+      
+      .content-item {
+        padding: 15px 0;
+        border-bottom: 1px solid #e0e0e0;
+        transition: 0.2s;
+      }
+      
+      .content-item:hover { 
+        background: rgba(23, 162, 184, 0.02); 
+        padding-left: 10px; 
+        border-bottom-color: var(--azure); 
+      }
+      
+      .item-year { 
+        font-weight: 800; 
+        font-size: 0.7rem; 
+        color: var(--ruby); 
+        min-width: 60px;
+        display: inline-block;
+      }
+
+      .item-title {
+        color: var(--ink);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .item-title:hover {
+        color: var(--ruby);
+      }
+
+      .doi-link {
+        text-decoration: none;
+        color: var(--azure);
+        transition: 0.2s;
+        display: inline-block;
+        margin-left: 8px;
+        opacity: 0.7;
+      }
+
+      .doi-link:hover {
+        opacity: 1;
+        color: var(--ruby);
+      }
+
+      .doi-box {
+        display: inline-block;
+        margin-top: 8px;
+        margin-left: 0;
+      }
+
+      .doi-box-link {
+        display: inline-block;
+        padding: 6px 12px;
+        background: rgba(23, 162, 184, 0.12);
+        border: 1px solid rgba(23, 162, 184, 0.3);
+        border-radius: 4px;
+        text-decoration: none;
+        color: var(--azure);
+        font-weight: 700;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        transition: all 0.2s;
+      }
+
+      .doi-box-link:hover {
+        background: rgba(23, 162, 184, 0.2);
+        border-color: rgba(23, 162, 184, 0.6);
+        color: var(--ruby);
+      }
+
+      .doi-box a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        background: rgba(23, 162, 184, 0.1);
+        border: 1px solid rgba(23, 162, 184, 0.3);
+        border-radius: 4px;
+        text-decoration: none;
+        color: var(--azure);
+        transition: all 0.2s;
+      }
+
+      .doi-box a:hover {
+        background: rgba(23, 162, 184, 0.2);
+        border-color: rgba(23, 162, 184, 0.6);
+        color: var(--ruby);
+      }
+
+      .doi-label {
+        font-weight: 700;
+        font-size: 0.65rem;
+        letter-spacing: 0.5px;
+      }
+
+      .doi-value {
+        font-family: 'Courier New', monospace;
+        font-size: 0.7rem;
+      }
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      .item-title { 
+        font-family: 'Cormorant Garamond', serif; 
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        font-weight: 600; 
+        color: var(--ink); 
+        text-decoration: none;
+        line-height: 1.4;
+      }
+      
+      .item-title:hover { 
+        color: var(--azure); 
+      }
+
+      @media (max-width: 991px) {
+        .hub-section .col-lg-6:first-child {
+          margin-bottom: 60px;
+        }
+      }
+
+       
+      .teaching-card {
+        padding: clamp(20px, 3vw, 25px);
+        background: var(--white);
+        border: 1px solid var(--azure);
+        border-left: 4px solid var(--azure);
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        transition: all 0.3s;
+        text-decoration: none;
+        display: block;
+        color: inherit;
+      }
+      
+      .teaching-card:hover {
+        box-shadow: 0 8px 20px rgba(23, 162, 184, 0.15);
+        transform: translateX(5px);
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      .teaching-date {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: var(--azure);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        display: block;
+      }
+      
+      .teaching-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+        font-weight: 700;
+        margin-bottom: 8px;
+        line-height: 1.3;
+        color: var(--ink);
+      }
+      
+      .teaching-card:hover .teaching-title {
+        color: var(--azure);
+      }
+      
+      .teaching-summary {
+        font-size: 0.9rem;
+        color: var(--smoke);
+        line-height: 1.5;
+        margin: 0;
+      }
+
+       
+      .cv-wrapper {
+        max-width: 100%;
+        width: 100%;
+        margin: clamp(40px, 6vw, 60px) 0 0;
+      }
+      
+      .cv-section {
+        background: var(--white);
+        border: 2px solid #ddd;
+        padding: clamp(30px, 5vw, 50px);
+        position: relative;
+        width: 100%;
+      }
+      
+      .cv-section::before {
+        content: "curriculum vitae";
+        position: absolute;
+        top: -12px; 
+        left: 20px;
+        background: var(--white);
+        padding: 0 10px;
+        font-size: 0.6rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: var(--ash);
+      }
+      
+      .cv-column-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--azure);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      
+      .cv-item { 
+        border-left: 2px solid #e5e5e5;
+        padding-left: 20px; 
+        margin-bottom: 25px; 
+        position: relative;
+      }
+      
+      .cv-item::after { 
+        content: ""; 
+        position: absolute; 
+        left: -5px; 
+        top: 6px; 
+        width: 8px; 
+        height: 8px; 
+        background: var(--azure); 
+        border-radius: 50%; 
+      }
+      
+      .cv-year {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: var(--ruby);
+        margin-bottom: 6px;
+        display: block;
+      }
+      
+      .cv-degree {
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: var(--ink);
+        margin-bottom: 4px;
+        line-height: 1.3;
+      }
+      
+      .cv-institution {
+        font-size: 0.85rem;
+        color: var(--ash);
+        margin-bottom: 4px;
+        font-weight: 500;
+      }
+      
+      .cv-location {
+        font-size: 0.8rem;
+        color: var(--smoke);
+      }
+
+      @media (max-width: 767px) {
+        .cv-section .col-md-6:first-child {
+          margin-bottom: 40px;
+        }
+      }
+
+       
+      .section-header-compact { 
+        margin-bottom: 2rem; 
+        border-bottom: 2px solid var(--ink); 
+        display: inline-block; 
+        padding-right: 40px; 
+        padding-bottom: 8px;
+      }
+      
+      .section-header-compact h2 { 
+        font-family: 'Cormorant Garamond', serif; 
+        font-weight: 700; 
+        font-size: clamp(1.8rem, 4vw, 2.2rem);
+        margin: 0; 
+      }
+      
+      .btn-academic {
+        padding: 10px 24px; 
+        border: 2px solid var(--ruby); 
+        font-weight: 700; 
+        text-transform: uppercase; 
+        font-size: 0.65rem; 
+        letter-spacing: 2px; 
+        transition: 0.3s ease; 
+        text-decoration: none; 
+        color: var(--ruby);
+        display: inline-block;
+        border-radius: 3px;
+      }
+      
+      .btn-academic:hover { 
+        background: var(--ruby); 
+        color: white; 
+        box-shadow: 0 5px 15px rgba(225, 29, 72, 0.2);
+      }
+
+       
+      .video-section {
+        padding-top: clamp(20px, 4vw, 40px);
+        padding-bottom: var(--section-padding);
+      }
+      
+      .section-label {
+        display: block;
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--azure);
+        margin-bottom: 10px;
+      }
+      
+      .section-title-main {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 700;
+        margin-bottom: 0;
+        color: var(--ink);
+      }
+
+       
+      .hub-section {
+        padding: var(--section-padding) 0;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        background: rgba(250, 250, 250, 0.5);
+      }
+
+      .section-header-compact {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid var(--ruby);
+      }
+
+      .section-header-compact h2 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        font-weight: 700;
+        margin: 0;
+        color: var(--ink);
+      }
+
+       
+      .content-item {
+        padding: 16px 0;
+        border-bottom: 1px solid #e0e0e0;
+        transition: all 0.3s ease;
+      }
+      
+      .content-item:last-child {
+        border-bottom: none;
+      }
+
+      .content-item:hover { 
+        background: rgba(23, 162, 184, 0.03); 
+        padding-left: 10px; 
+        border-bottom-color: var(--ruby);
+      }
+
+       
+      .teaching-card {
+        display: block;
+        padding: 16px;
+        margin-bottom: 12px;
+        background: #f9f9f9;
+        border-left: 3px solid var(--azure);
+        border-radius: 2px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      .teaching-card:hover {
+        background: #f0f8fb;
+        border-left-color: var(--ruby);
+        transform: translateX(4px);
+        box-shadow: 0 4px 12px rgba(23, 162, 184, 0.15);
+      }
+
+      .teaching-date {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--ruby);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .teaching-title {
+        color: var(--ink) !important;
+        margin-bottom: 6px !important;
+        margin-top: 4px !important;
+      }
+
+      .teaching-summary {
+        color: var(--smoke) !important;
+        font-size: 0.95rem;
+        line-height: 1.4;
+      }
+      
+      .video-container {
+        padding: 12px;
+        background: var(--white);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+      }
+      
+      .video-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      }
+      
+      .video-label {
+        background: var(--ink);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+      }
+      
+      .video-label.highlight {
+        background: var(--azure);
+      }
+      
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        background: #000;
+      }
+      
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+       
+      .video-card {
+        transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .video-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+      }
+
+       
+      .video-thumbnail-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;  
+        height: 0;
+        background-color: var(--paper);
+      }
+
+      .video-thumbnail-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+       
+      .line-clamp-2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+       
+      @media (max-width: 576px) {
+        html, body {
+          width: 100%;
+          max-width: 100%;
+          overflow-x: hidden !important;
+        }
+        
+        .container {
+          padding-left: 12px !important;
+          padding-right: 12px !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        
+        .hero {
+          padding-top: 15px;
+          padding-bottom: 65px;
+          min-height: 90vh;
+        }
+        .hero-title {
+          font-size: clamp(2.5rem, 8vw, 4.2rem);
+          margin-bottom: 0.5rem;
+          line-height: 1.05;
+        }
+        .hero-subtitle {
+          font-size: 0.93rem;
+          margin-bottom: 0.8rem;
+          line-height: 1.5;
+        }
+        .hero-visual {
+          max-width: 230px;
+          margin: 10px auto 0;
+        }
+        .hero-img {
+          width: 230px;
+          height: 230px;
+        }
+        .hero-stat {
+          position: absolute;
+          bottom: 8px;
+          right: 8px;
+          margin-top: 0;
+          justify-content: center;
+        }
+        .stat-box {
+          padding: 8px 12px;
+          min-width: 95px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2px;
+        }
+        .stat-box .stat-number {
+          font-size: 1.1rem;
+          margin-bottom: 0;
+        }
+        .stat-box .stat-label {
+          font-size: 0.42rem;
+          line-height: 0.95;
+          letter-spacing: 0.3px;
+        }
+        .scroll-indicator { 
+          font-size: 2.6rem;
+          bottom: 16px;
+        }
+      }
+    </style>
   </head>
+  
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
-
-    <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
-  <div class="container">
-    
-    
-    
-      
-    
-    
-      
-    
-    <a class="navbar-brand" href="https://ggoetten.github.io">
-      <img src="/assets/images/inverted-logo.png" id="logo">de Lima, G. G.</a>
-    <button
-      class="navbar-toggler navbar-dark"
-      id="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#publications">Publications</a>
-              </li>
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#videos">Videos</a>
-              </li>
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#teaching">Teaching</a>
-              </li>
-            
-            
-        
-        
-          
-            
-          
-        
-        
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
-        
-        
-        
-          <li class="nav-item">
-            <a class="nav-link" href="/teaching">Teaching</a>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link" href="/publications">Publications</a>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link" href="/videos">Videos</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-  
-  <img src="/assets/images/main-logo.png" class="d-none" id="main-logo">
-  <img src="/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
-</nav><div class="container-fluid home" id="home">
-  <div
-    class="background container-fluid"
-    style="background-image: url('images/Picture2.jpg');"
-  ></div>
-  <div class="container content text-center">
-    <img src="images/Portrait2x.png"
-      class="rounded-circle mx-auto d-block img-fluid"
-    />
-    <h1 class="greeting">Hi, I am
-      
-        Gabriel
-      
-    </h1>
-    <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
-      <span class="ityped-cursor"></span>
-    </div>
-    <ul id="typing-carousel-data">
-      
-      <li>I am a Researcher</li>
-      
-      <li>I work with Biomaterials</li>
-      
-      <li>... and welcome to my page!</li>
-      
-    </ul>
-    
-      
-        <a href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
-      
-    
-  </div>
-</div>
-
-    
-      
-      
-        
-          <div class="container-fluid section-holder d-flex bg-white">
-            <div class="container anchor p-lg-5 about-section" id="about">
-
-<div class="row pt-sm-2 pt-md-4 justify-content-center">
-
-    
-    <div class="col-sm-7">
-    <h3 class="p-0">Gabriel Goetten de Lima</h3>
-      
-      <h5 class="p-0">
-        Post-doc researcher
-        
-          at Federal University of Paraná
-        
-      </h5>
-      
-      <p class="p-0 text-justify">
-        I&#8217;m a post-doc Researcher of <a href="http://www.tecnologia.ufpr.br/portal/pipe/">Integrated Engineering and Materials Sciences</a> program from <a href="http://www.ufpr.br/portalufpr/">Federal University of Paraná</a>, and a Visiting Research Fellow at <a href="http://mri.ait.ie/people/gabriel-goetten-de-lima/">Athlone Institute of Technology</a>.
-      </p>    
-
-      <div class="text-container ml-auto">
-        <ul class="social-link d-flex">
-          
-          <li>
-            
-              <a href="mailto:ggoetten@research.ait.ie" target="/"><i class="fas fa-envelope"></i></a>
-            
-          </li>
-          
-          <li>
-            			
-              <a href="https://scholar.google.com/citations?hl=en&amp;user=&amp;user=dGoNbH0AAAAJ" target="/"><i class="ai ai-google-scholar"></i></a>
-            
-          </li>
-          
-          <li>
-            			
-              <a href="https://www.researchgate.net/profile/Gabriel_Goetten_de_Lima" target="/"><i class="fab fa-researchgate"></i></a>
-            
-          </li>
-          
-          <li>
-            			
-              <a href="https://www.linkedin.com/in/gabriel-goetten-de-lima/" target="/"><i class="fab fa-linkedin"></i></a>
-            
-          </li>
-          
-          <li>
-            			
-              <a href="https://twitter.com/Gabriel_Goetten" target="/"><i class="fab fa-twitter"></i></a>
-            
-          </li>
-          
-          <li>
-            			
-              <a href="https://github.com/ggoetten" target="/"><i class="fab fa-github"></i></a>
-            
-          </li>
-          
-        </ul>
-      </div>
-	  </div>
-	        <div class="col-sm-5">
-			
-			
-      <h3 class="p-1">Education</h3>
-	  
-		<ul class="social-link">
-		
-				
-				<li>
-			  <h6 class="p-0 text-justify"><i class="fa fa-graduation-cap"></i>&nbspPhD in Polymers Engineering, 2017
-			  <p class="p-0 text-justify">Athlone Institute of Technology, AIT, Ireland</p></h6>
-				
-				<li>
-			  <h6 class="p-0 text-justify"><i class="fa fa-graduation-cap"></i>&nbspMS.C. in Mechanical Engineering, 2012
-			  <p class="p-0 text-justify">Federal University of Paraná, UFPR, Brazil</p></h6>
-				
-				<li>
-			  <h6 class="p-0 text-justify"><i class="fa fa-graduation-cap"></i>&nbspBSc. in Physics, 2010
-			  <p class="p-0 text-justify">Federal University of Paraná, UFPR, Brazil</p></h6>
-				
-				</li>		   
-				   
-				   	</ul>
-					
-					
-					</div>
-	</div>
-</div>
-
-          </div>
-          
-          
-            
-          
-        
-      
-        
-          <div class="container-fluid section-holder d-flex bg-dimmed">
-            <div class="container-fluid anchor pb-5 projects-section" id="publications">
-  
-    <h1 class="text-center">Publications</h1>
-  
-  <div class="container ml-auto text-justify">
-    <div class="d-flex flex-wrap justify-content-around">
-	
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Micro-Injection Moulding of PEO/PCL Blend–Based Matrices for Extended Oral Delivery of Fenbendazole</h5>
-          </div>
-          <div class="sub-title">
-			Pharmaceutics, 15(3), 900
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p>Bezerra, G.S.N., <b>De Lima, G.G.</b>, Colbert, D.M., Halligan, E., Geever, J., Geever, L.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/gilberto2023/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.3390/pharmaceutics15030900">doi</a>
-		
-              
-		<a class="btn btn-outline-info btn-sm mb-2" href="https://dspace-test.interleaf.ie/handle/N/A"></i>&nbsp;PDF - AIT</a>
-		
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Novel polyvinyl-alcohol microsphere for everolimus delivery for subependymal giant cell astrocytoma</h5>
-          </div>
-          <div class="sub-title">
-			<em>Journal of Drug Delivery Science and Technology</em>, 81, 104204
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p>Louis, L., Chee, B.S., Louis, N., <b>de Lima, G.G.</b>, McAfee, M., Murphy, A., Nugent, M.J.D.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/lynn2023/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.1016/j.jddst.2022.104204">doi</a>
-		
-              
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Supraparticles as slow-release fertiliser in seedling potential growth of Eucalyptus urograndis and greenhouse gas flux impacts</h5>
-          </div>
-          <div class="sub-title">
-			<em>Environmental Science and Pollution Research</em>, 1-13
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p><b>de Lima, G.G.</b>, Matos, M., de Sá, F.P., Mashiba, L.N., Magalhães, W.L.E., Rachwal, M.F.G., & Zanatta, J.A.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/fertilizer2023/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.1007/s11356-022-21149-5">doi</a>
-		
-              
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Linking geographical origin with nutritional, mineral, and visual proprieties of pinhão (Araucaria angustifolia seed) from the south of Brazil</h5>
-          </div>
-          <div class="sub-title">
-			<em> Journal of Food Science </em>, 87(10), 4738-4750
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p>Malta, D.S., <b>de Lima, G.G.</b>, Arantes, M.S.T., Lacerda, A.E.B., Mathias, A.L., Magalhães, W.L.E., Helm, C.V., & Masson, M.L.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/dani2023screening/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.1111/1750-3841.17156">doi</a>
-		
-              
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Characterization of gels and films produced from Pinhão seed coat nanocellulose as a potential use for wound healing dressings and screening of Its compounds towards antitumour effects</h5>
-          </div>
-          <div class="sub-title">
-			<em> Polymers </em>, 14(14), 2776.
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p>de Lima, T. A. D. M., <b>de Lima, G. G.</b>, Chee, B. S., Henn, J. G., Cortese, Y. J., Matos, M., ... & Nugent, M. J.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/tipinhao2023/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.3390/polym14142776">doi</a>
-		
-              
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-        <div class="col-sm-12 col-md-12 col-lg-4 p-2">
-    <div class="card">
-      <a class="card-header">
-        <div>
-          <div class="d-flex">
-            <h5 class="card-title mb-0">Self-Photopolymerizable Hydrogel–Ceramic Composites with Scavenger Properties</h5>
-          </div>
-          <div class="sub-title">
-			<em>Polymers</em>, 14(6), 1261.
-          </div>
-        </div>
-      </a>
-      <div class="card-body sub-title">
-        <p>Canillas, M., <b>de Lima, G.G.</b>, De Sá, M.J.C., Nugent, M.J.D., Rodríguez, M.A., & Devine, D.M.</p>
-        <span class="float-right">    
-              <a class="btn btn-outline-info btn-sm mb-2" href="https://ggoetten.github.io/publications/initiator2022/" class="badge badge-small">Abstract</a>
-			  
-		<a class="btn btn-outline-info btn-sm mb-2" href="http://dx.doi.org/10.3390/polym14061261">doi</a>
-		
-              
-		
-			  
-        </span>
-      </div>
-    </div>
-</div>
-
-      
-    </div>
-	<span class="float-right">
-            <nav class="btn btn-outline-info btn-sm"><a href="/publications">&rarr; More Papers</a></nav>
-			</span>
-</div>
-</div>
-          </div>
-          
-          
-            
-          
-        
-      
-        
-          <div class="container-fluid section-holder d-flex bg-white">
-            <div class="container" id="videos">
-  <div class="row justify-content-center mt-5 mb-4">
-    <div class="col-md-7 text-center">
-      <h1 class="mb-4">Videos</h1>
-      <p class="lead">Gain insights into my published manuscripts through these informative videos.</p>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-md-12">
-      <h4>English Videos</h4>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    
-      <div class="col-lg-6 col-md-8 mb-4">
-        <div class="card h-100">
-          <div class="video-container">
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/bQZ-ZX1aX_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Self-Photopolymerizable Hydrogel–Ceramic Composites with Scavenger Properties</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="col-lg-6 col-md-8 mb-4">
-        <div class="card h-100">
-          <div class="video-container">
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/kE46iMMU0fs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Biocide from Neem Oil</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-    
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-md-12">
-      <h4>Vídeos em Português</h4>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    
-      
-        <div class="col-lg-6 col-md-8 mb-4">
-          <div class="card h-100">
-            <div class="video-container">
-              <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/7U0EB0VT2-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Fertilizante sustentável reduz gases de efeito estufa</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-      
-    
-      
-        <div class="col-lg-6 col-md-8 mb-4">
-          <div class="card h-100">
-            <div class="video-container">
-              <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/-bocxPmQ6bU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Características do pinhão em diferentes regiões do sul do Brasil</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-      
-    
-  </div>
-	<span class="float-right">
-            <nav class="btn btn-outline-info btn-sm"><a href="/videos">&rarr; More Videos</a></nav>
-	</span>
-</div>
-
-          </div>
-          
-          
-            
-          
-        
-      
-        
-          <div class="container-fluid section-holder d-flex bg-dimmed">
-            <div class="container-fluid anchor pb-5 skills-section" id="teaching">
-  
-    <h1 class="text-center">Teaching</h1>
-  
-  <div class="container ml-auto text-justify">
-  <div class="d-flex flex-wrap justify-content-around">
-  
-  
-    <div class="card col-sm-5">
-      <div class="card-head text-left">
-		 <h5 class="card-title"><a href="https://ggoetten.github.io/teaching/fisicaiii/">Física Geral III</h5>
-      </a>
-	  </div>
-      <div class="card-body">
-        <p class="card-text">Curso de Física III.</p>
-	    </div>
-  </div>
-  	 
-  
-    <div class="card col-sm-5">
-      <div class="card-head text-left">
-		 <h5 class="card-title"><a href="https://ggoetten.github.io/teaching/termo/">Termodinâmica dos materiais</h5>
-      </a>
-	  </div>
-      <div class="card-body">
-        <p class="card-text">Post-graduate course of Termodynamics in materials science.</p>
-	    </div>
-  </div>
-  	 
-    </div>    
-	<span class="float-right">
-    <nav class="btn btn-outline-info btn-sm"><a href="/teaching">&rarr; All Courses</a></nav>
-	</span>
-    </div>
-</div>
-
-
-          </div>
-          
-          
-            
-          
-        
-      
-        
-      
-    
-
-    <footer class="container-fluid text-center align-content-center footer pb-2">
-  <div class="container pt-5">
-    <div class="row text-left">
-      <div class="col-md-4 col-sm-12">
-        <h5>Navigation</h5>
-        
-        <ul>
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#about">About</a>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#publications">Publications</a>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#videos">Videos</a>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#teaching">Teaching</a>
-            </li>
-            
-            
-        </ul>
-        
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <h5>Contact Me</h5>
-		<ul class="compact fa-ul">
-		  <li><i class="fa-li fa fa-envelope fa-fw" style="color:#becad9;font-size:100%;padding-top:0px;"></i><a href="mailto:ggoetten@research.ait.ie">ggoetten@research.ait.ie</a></li>
-									<li><i class="fa-li fab fa-twitter-square fa-fw" style="color:#becad9;font-size:100%;padding-top:0px;"></i><a href="http://twitter.com/Gabriel_Goetten">@Gabriel_Goetten</a> on Twitter.</li>
-									<li><i class="fa-li fab fa-linkedin fa-fw" style="color:#becad9;font-size:100%;padding-top:0px;"></i><a href="https://www.linkedin.com/in/gabriel-goetten-de-lima/">On Linkedin</a>.</li>
-									<li><i class="fa-li ai ai-google-scholar" style="color:#becad9;font-size:100%;padding-top:6px;"></i><a href="https://scholar.google.com.br/citations?user=dGoNbH0AAAAJ&hl=en">Google Scholar</a>.</li>
-
-        </ul>
-      </div>
-	        <div class="col-md-4 col-sm-12">
-	  <h5>Where</h5>
-								<ul class="compact fa-ul">
-									<li><i class="fa-li fa fa-university fa-fw" style="color:#becad9;font-size:100%;padding-top:6px;"></i>UFPR - Centro Politécnico, Edifício de Administração, 2º Andar. Centro Politécnico - Jardim das Américas, Curitiba, Paraná, Brazil.</li>
-									</li>
-									<li><i class=""></li>
-      
-    </div>
-  </div>
-  <hr />
-  <div class="container">
-    <div class="row text-left">
-      <div class="col-md-4">
-        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/assets/images/inverted-logo.png">
-          Toha
-        </a>
-      </div>
-      <div class="col-md-4 text-center">© 2023 Copyright.</div>
-      <div class="col-md-4 text-right">
-        <a id="hugo" href="https://gohugo.io/">Powered by Hugo
-        <img
-          src="/assets/images/hugo-logo-wide.svg"
-          alt="Hugo Logo"
-          height="18"
-        />
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-
     <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/main.js"></script>
+
+    <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+      <div class="container">
+        
+        
+        
+          
+        
+        
+          
+        
+
+        <a class="navbar-brand" href="http://localhost:1313/">
+          <img src="/images/fig1.png">de Lima, G. G.</a>
+        <button
+          class="navbar-toggler navbar-light"
+          id="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#top-nav-items"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="top-nav-items">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            
+            
+              
+                
+              
+            
+            
+              <div class="dropdown-divider" id="top-navbar-divider"></div>
+            
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/teaching">Teaching</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/publications">Publications</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/videos">Videos</a>
+              </li>
+            
+          </ul>
+
+      </div>
+        </div>
+          
+      <img src="/images/fig1.png" class="d-none" id="main-logo">
+      <img src="/images/fig1.png" class="d-none" id="inverted-logo">
+    </nav>
+
+    
+    <section class="hero bg-blueprint" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <h1 class="hero-title">
+              Gabriel<span class="accent">Goetten de Lima</span>
+            </h1>
+            <p class="hero-subtitle">PhD & Researcher specializing in Advanced Physics Pedagogy and Smart Biomaterial Networks.</p>
+            
+            
+            
+            
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-visual">
+              <img src="/images/Portrait2x.png" alt="Gabriel de Lima" class="hero-img">
+              <div class="hero-stat">
+                <div class="stat-box">
+                  <span class="stat-number">15+</span>
+                  <span class="stat-label">Years<br>Researcher</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a href="#research" class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    
+    <section id="research" class="pillar-row">
+      <div class="container">
+        <div class="row g-3">
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="hub-section">
+      <div class="container">
+        
+        
+        <div class="row g-5">
+          
+          
+          <div class="col-lg-6">
+            <div class="section-header-compact">
+              <h2>Recent Research</h2>
+            </div>
+            <div class="mt-3">
+              
+              <div class="content-item">
+                <span class="item-year">2025</span>
+                <a href="http://localhost:1313/publications/pva_molecular_liquids_2025/" class="item-title d-inline">Effect of freeze-thawing on polyvinyl alcohol hydrogel: Films before and after solvent evaporation casting</a>
+                
+                <a href="https://doi.org/10.1016/j.molliq.2024.129040" target="_blank" class="doi-box-link" title="Digital Object Identifier: 10.1016/j.molliq.2024.129040">
+                  DOI
+                </a>
+                
+              </div>
+              
+              <div class="content-item">
+                <span class="item-year">2025</span>
+                <a href="http://localhost:1313/publications/corymbia_biorefinery_2025/" class="item-title d-inline">Corymbia citriodora hydrodistillation optimization: A biorefinery approach for extracting high value biocompounds</a>
+                
+                <a href="https://doi.org/10.1016/j.cej.2024.162599" target="_blank" class="doi-box-link" title="Digital Object Identifier: 10.1016/j.cej.2024.162599">
+                  DOI
+                </a>
+                
+              </div>
+              
+              <div class="content-item">
+                <span class="item-year">2025</span>
+                <a href="http://localhost:1313/publications/pyrolytic_lignin_2025/" class="item-title d-inline">Pyrolytic Lignin: A Promising Precursor for the Green Synthesis of Fluorescent Carbon Nanoparticles</a>
+                
+                <a href="https://doi.org/10.1021/acsomega.4c09876" target="_blank" class="doi-box-link" title="Digital Object Identifier: 10.1021/acsomega.4c09876">
+                  DOI
+                </a>
+                
+              </div>
+              
+              <div class="content-item">
+                <span class="item-year">2025</span>
+                <a href="http://localhost:1313/publications/nanocellulose_review_2025/" class="item-title d-inline">Enhancing barrier and antioxidant properties of nanocellulose films for coatings and active packaging: a review</a>
+                
+                <a href="https://doi.org/10.1021/acsanm.4c05678" target="_blank" class="doi-box-link" title="Digital Object Identifier: 10.1021/acsanm.4c05678">
+                  DOI
+                </a>
+                
+              </div>
+              
+              <div class="content-item">
+                <span class="item-year">2025</span>
+                <a href="http://localhost:1313/publications/rhododendron_biochar_2025/" class="item-title d-inline">Valorisation of invasive plant (Rhododendron ponticum) biomass into activated biochar as a sustainable adsorbent for emerging pharmaceutical contaminant removal from water</a>
+                
+              </div>
+              
+            </div>
+            
+            <a href="/publications" class="btn-academic d-block text-center mt-4">All Publications <i class="fas fa-chevron-right ms-1"></i></a>
+          </div>
+
+          
+          <div class="col-lg-6">
+            <div class="section-header-compact">
+              <h2>Teaching & Path</h2>
+            </div>
+            
+            <div class="mt-4">
+              <h6 class="text-uppercase fw-bold small text-info mb-3">Currently Instructing</h6>
+              
+              <a href="http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2026-01-19/" class="teaching-card">
+                <span class="teaching-date">January 19, 2026</span>
+                <h5 class="teaching-title mb-2">AP Physics C: Electricity and Magnetism</h5>
+                <p class="teaching-summary">Calculus-based course on electrostatics, circuits, and electromagnetism.</p>
+              </a>
+              
+              <a href="http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2025-12-06/" class="teaching-card">
+                <span class="teaching-date">December 6, 2025</span>
+                <h5 class="teaching-title mb-2">AP Physics C: Electricity and Magnetism</h5>
+                <p class="teaching-summary">Calculus-based course on electrostatics, circuits, and electromagnetism.</p>
+              </a>
+              
+              
+              <a href="/teaching" class="btn-academic d-block text-center mt-4">
+                All Teaching <i class="fas fa-chevron-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div> 
+
+        
+        <div class="row">
+          <div class="col-12">
+            
+            
+            <div class="cv-wrapper">
+              <div class="cv-section">
+                <div class="row">
+                  
+                  
+                  <div class="col-md-6">
+                    <h3 class="cv-column-title">Education</h3>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">2013 - 2017</span>
+                      <div class="cv-degree">PhD in Materials Engineering</div>
+                      <div class="cv-institution">Technological University of the Shannon</div>
+                      <div class="cv-location">Ireland</div>
+                    </div>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">2010 - 2012</span>
+                      <div class="cv-degree">MSc Mechanical Engineering</div>
+                      <div class="cv-institution">Federal University of Paraná</div>
+                      <div class="cv-location">Brazil</div>
+                    </div>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">2006 - 2010</span>
+                      <div class="cv-degree">BSc Physics</div>
+                      <div class="cv-institution">Federal University of Paraná</div>
+                      <div class="cv-location">Brazil</div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="col-md-6">
+                    <h3 class="cv-column-title">Experience</h3>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">Present</span>
+                      <div class="cv-degree">R&D Researcher</div>
+                      <div class="cv-institution">FUNTEF-PR</div>
+                      <div class="cv-location">Curitiba, Brazil</div>
+                    </div>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">2024 - Present</span>
+                      <div class="cv-degree">AP Physics Teacher</div>
+                      <div class="cv-institution">American Straight A Academy</div>
+                      <div class="cv-location">Remote</div>
+                    </div>
+                    
+                    <div class="cv-item">
+                      <span class="cv-year">2017 - 2024</span>
+                      <div class="cv-degree">Post-Doctoral Researcher</div>
+                      <div class="cv-institution">UNESP, UFPR, TUS Ireland</div>
+                      <div class="cv-location">Multiple Locations</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <a href="/files/cv_new_final_en.pdf" target="_blank" class="btn-academic w-100 text-center mt-4 py-2">Download Detailed CV</a>
+              </div>
+            </div>
+
+          </div>
+        </div> 
+
+      </div>
+    </section>
+
+    
+    <section id="videos" class="video-section bg-blueprint">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-label">Public Outreach</span>
+          <h2 class="section-title-main">Lectures & Media</h2>
+        </div>
+        
+        
+        <div class="row g-4 mb-5">
+          
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="video-card h-100 shadow-sm border-0 bg-white rounded-4 overflow-hidden">
+              
+              <div class="video-thumbnail-wrapper">
+                
+                <iframe src="https://www.youtube.com/embed/-bocxPmQ6bU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+                
+              </div>
+              
+              <div class="p-4 d-flex flex-column h-100">
+                <h5 class="fw-bold mb-2 text-dark">Características do pinhão em diferentes regiões do sul do Brasil</h5>
+                <p class="text-muted small flex-grow-1 line-clamp-2"> </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="video-card h-100 shadow-sm border-0 bg-white rounded-4 overflow-hidden">
+              
+              <div class="video-thumbnail-wrapper">
+                
+                <iframe src="https://www.youtube.com/embed/7U0EB0VT2-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+                
+              </div>
+              
+              <div class="p-4 d-flex flex-column h-100">
+                <h5 class="fw-bold mb-2 text-dark">Fertilizante sustentável reduz gases de efeito estufa</h5>
+                <p class="text-muted small flex-grow-1 line-clamp-2"></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        
+        <div class="text-center mt-5">
+          <a href="/videos" class="btn-academic">View Media Archive <i class="fas fa-chevron-right ms-1"></i></a>
+        </div>
+        
+      </div>
+    </section><style>
+   
+  
+   
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  body > #topbar,
+  body > div:not(.site-footer) {
+    flex: 1 0 auto;
+  }
+  
+  .site-footer {
+    flex-shrink: 0;
+    background-color: #0a0a0a;  
+    color: #ffffff;  
+    padding-top: 20px;  
+    padding-bottom: 15px;  
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    z-index: 10;
+    text-align: left;  
+    width: 100%;
+    margin-top: auto;
+  }
+
+   
+  .site-footer h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.8rem;  
+    color: #ffffff;  
+    font-size: 1.2rem;  
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;  
+    border-bottom: 2px solid #17a2b8;  
+  }
+
+   
+  .site-footer h5::after {
+    content: none;
+  }
+
+  .footer-link {
+    color: #737373;  
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 0.95rem;  
+    display: inline-block;
+  }
+
+  .footer-link:hover {
+    color: #17a2b8;  
+    text-decoration: none;
+    transform: translateX(3px);  
+  }
+
+  .footer-text {
+    color: #737373;  
+    font-size: 0.95rem;  
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    max-width: 100%;  
+  }
+
+  .footer-icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-icon-list li {
+    margin-bottom: 6px;  
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-start;  
+    color: #737373;  
+    gap: 10px;
+    font-size: 0.95rem;  
+  }
+
+  .footer-icon {
+    color: #17a2b8;  
+    font-size: 1.1rem;  
+    margin-top: 3px;  
+    min-width: 20px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.05);
+    margin-top: 1px;  
+    padding-top: 1px;  
+    font-size: 0.85rem;  
+    color: #404040;  
+    letter-spacing: 0.5px;
+  }
+
+  .footer-bottom a {
+    color: #737373;  
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0 10px;
+  }
+
+  .footer-bottom a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-bottom img {
+    opacity: 0.4;
+    transition: 0.3s;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .footer-bottom a:hover img {
+    opacity: 1;
+  }
+</style>
+
+<footer class="site-footer">
+  <div class="container" style="max-width: 850px; margin-left: auto; margin-right: auto;"> 
+    <div class="row g-4 justify-content-center">
+      
+      
+      <div class="col-lg-5 col-md-6 mb-3 mb-lg-0"> 
+        <h5>Contact</h5>
+        <ul class="footer-icon-list">
+          <li>
+            <i class="fas fa-envelope footer-icon"></i>
+            <a href="mailto:ggoetten@research.ait.ie" class="footer-link">ggoetten@research.ait.ie</a>
+          </li>
+          <li>
+            <i class="fab fa-linkedin footer-icon"></i>
+            <a href="https://www.linkedin.com/in/gabriel-goetten-de-lima/" class="footer-link">LinkedIn Profile</a>
+          </li>
+          <li>
+            <i class="ai ai-google-scholar footer-icon"></i>
+            <a href="https://scholar.google.com.br/citations?user=dGoNbH0AAAAJ&hl=en" class="footer-link">Google Scholar</a>
+          </li>
+        </ul>
+      </div>
+
+      
+      <div class="col-lg-5 col-md-6 mb-3 mb-lg-0"> 
+        <h5>Location</h5>
+        <ul class="footer-icon-list">
+          <li style="flex-direction: column; gap: 8px;">
+            <div style="display: flex; gap: 10px;">
+                <i class="fas fa-university footer-icon" style="font-size: 1.5rem;"></i>
+                <span class="footer-text mb-0">
+                UFPR - Centro Politécnico<br>
+                Edifício de Administração, 2º Andar<br>
+                Jardim das Américas<br>
+                Curitiba, Paraná, Brazil
+                </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    
+    <div class="footer-bottom">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="mb-1">
+            
+              © 2026 Copyright.
+            
+          </div>
+          <div>
+            <a href="https://github.com/hossainemruz/toha" target="_blank" class="mx-2">
+              <i class="fas fa-code-branch me-1"></i> Toha Theme
+            </a>
+            <span class="text-muted mx-1">|</span>
+            <a href="https://gohugo.io/" target="_blank" class="mx-2">
+              Powered by Hugo 
+              <img src="/assets/images/hugo-logo-wide.svg" alt="Hugo Logo" height="14">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><script src="/assets/js/jquery-3.4.1.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 
 <script src="/assets/js/navbar.js"></script>
 <script src="/assets/js/main.js"></script>
 
-
-    
-    <script src="/assets/js/itype.min.js"></script>
-    <script src="/assets/js/home.js"></script>
-    <script src="/assets/js/jquery.filterizr.min.js"></script>
   </body>
 </html>

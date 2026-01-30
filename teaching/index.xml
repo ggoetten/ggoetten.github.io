@@ -2,46 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on de Lima, G. G.</title>
-    <link>https://ggoetten.github.io/teaching/</link>
+    <link>http://localhost:1313/teaching/</link>
     <description>Recent content in Teaching on de Lima, G. G.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +1100</lastBuildDate><atom:link href="https://ggoetten.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Física Geral III</title>
-      <link>https://ggoetten.github.io/teaching/fisicaiii/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +1100</pubDate>
-      
-      <guid>https://ggoetten.github.io/teaching/fisicaiii/</guid>
-      <description></description>
+      <title>AP Physics C: Electricity and Magnetism</title>
+      <link>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2026-01-19/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2026-01-19/</guid>
+      <description>Calculus-based course on electrostatics, circuits, and electromagnetism.</description>
     </item>
-    
+    <item>
+      <title>AP Physics C: Electricity and Magnetism</title>
+      <link>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2025-12-06/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2025-12-06/</guid>
+      <description>Calculus-based course on electrostatics, circuits, and electromagnetism.</description>
+    </item>
+    <item>
+      <title>AP Physics 1</title>
+      <link>http://localhost:1313/teaching/ap-physics-1-2025-11-10/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-1-2025-11-10/</guid>
+      <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
+    </item>
+    <item>
+      <title>AP Physics 1</title>
+      <link>http://localhost:1313/teaching/ap-physics-1-2025-10-23/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-1-2025-10-23/</guid>
+      <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
+    </item>
+    <item>
+      <title>AP Physics 1</title>
+      <link>http://localhost:1313/teaching/ap-physics-1-2025-09-29/</link>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-1-2025-09-29/</guid>
+      <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
+    </item>
+    <item>
+      <title>AP Physics C: Electricity and Magnetism</title>
+      <link>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2025-09-05/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-c-electricity-and-magnetism-2025-09-05/</guid>
+      <description>Calculus-based course on electrostatics, circuits, and electromagnetism.</description>
+    </item>
+    <item>
+      <title>AP Physics C: Mechanics</title>
+      <link>http://localhost:1313/teaching/ap-physics-c-mechanics-2025-07-19/</link>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-c-mechanics-2025-07-19/</guid>
+      <description>Calculus-based course covering kinematics, dynamics, and rotation.</description>
+    </item>
+    <item>
+      <title>AP Physics 1</title>
+      <link>http://localhost:1313/teaching/ap-physics-1-2025-06-10/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-1-2025-06-10/</guid>
+      <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
+    </item>
+    <item>
+      <title>AP Physics 1</title>
+      <link>http://localhost:1313/teaching/ap-physics-1-2025-03-04/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/ap-physics-1-2025-03-04/</guid>
+      <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
+    </item>
     <item>
       <title>Termodinâmica dos materiais</title>
-      <link>https://ggoetten.github.io/teaching/termo/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +1100</pubDate>
-      
-      <guid>https://ggoetten.github.io/teaching/termo/</guid>
+      <link>http://localhost:1313/teaching/termo/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/termo/</guid>
       <description>&lt;p&gt;This is a post-graduate level on Thermodynamics of materials.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tópicos Especiais em Engenharia e Ciência dos Materiais III – Físico química das superfícies</title>
-      <link>https://ggoetten.github.io/teaching/physico-chemistry/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +1100</pubDate>
-      
-      <guid>https://ggoetten.github.io/teaching/physico-chemistry/</guid>
+      <link>http://localhost:1313/teaching/physico-chemistry/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/physico-chemistry/</guid>
       <description>&lt;p&gt;This post-graduate level on Physical chemistry of surfaces.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tópicos Especiais em Engenharia e Ciência dos Materiais III – Biomaterials</title>
-      <link>https://ggoetten.github.io/teaching/biomaterials/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 +1100</pubDate>
-      
-      <guid>https://ggoetten.github.io/teaching/biomaterials/</guid>
+      <link>http://localhost:1313/teaching/biomaterials/</link>
+      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/biomaterials/</guid>
       <description>&lt;p&gt;This post-graduate level on biomaterials and the current materials used and challenges.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

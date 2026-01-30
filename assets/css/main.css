@@ -489,9 +489,9 @@ bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before, .bigfoot-footn
 }
 
 #topbar {
-	background: #fff;
+	background: transparent;
 	padding:0px;
-	margin-top:10ex;
+	margin-top:0 !important;
 	/* border-bottom: 3px solid #36454f; */
 }
 #topbar .navbar {padding-bottom:14px;
@@ -659,67 +659,163 @@ img.right {
 
 /* --- FOOTER START --- */
 
-.footer {
-  color: #8392a5 !important;
-  background-color: #1c2d41;
-  position: relative;
-  margin-top: auto;
-}
+ .site-footer {
+    background-color: #0a0a0a; /* --ink */
+    color: #ffffff; /* --white */
+    padding-top: 30px; /* Kept reduced height */
+    padding-bottom: 20px; /* Kept reduced height */
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    z-index: 10;
+    text-align: left; /* Left aligned text */
+  }
 
-.footer h5 {
-  color: #c0ccda;
-}
-.footer a {
-  color: #8392a5;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-}
+  /* Elegant Left-Aligned Headings */
+  .site-footer h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.8rem; /* Kept reduced margin */
+    color: #ffffff; /* --white */
+    font-size: 1.2rem; /* Restored font size */
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* Kept reduced padding */
+    border-bottom: 2px solid #17a2b8; /* --azure - Left aligned underline */
+  }
 
-.footer a:hover {
-  margin-left: 5px;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-}
+  /* Remove centered pseudo-element */
+  .site-footer h5::after {
+    content: none;
+  }
 
-.footer ul {
-  list-style: none;
-  padding-left: 0;
-}
+  .footer-link {
+    color: #737373; /* --ash */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 0.95rem; /* Restored font size */
+    display: inline-block;
+  }
 
-.footer li {
-  margin-top: 5px;
-}
+  .footer-link:hover {
+    color: #17a2b8; /* --azure */
+    text-decoration: none;
+    transform: translateX(3px); /* Move right instead of up */
+  }
 
-.footer hr {
-  background-color: #8392a5;
-}
+  .footer-text {
+    color: #737373; /* --ash */
+    font-size: 0.95rem; /* Restored font size */
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    max-width: 100%; /* Reset max-width */
+  }
 
-.footer p:first-child {
-  color: #c0ccda;
-}
+  .footer-icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
-.footer input {
-  background-color: #c0ccda;
-}
+  .footer-icon-list li {
+    margin-bottom: 6px; /* Kept reduced spacing */
+    display: flex;
+    justify-content: flex-start; /* Left align */
+    align-items: flex-start; /* Align top */
+    color: #737373; /* --ash */
+    gap: 10px;
+    font-size: 0.95rem; /* Restored font size */
+  }
 
-.footer input:focus {
-  background-color: #e5e9f2;
-}
+  .footer-icon {
+    color: #17a2b8; /* --azure */
+    font-size: 1.1rem; /* Restored font size */
+    margin-top: 3px; /* Align with text */
+    min-width: 20px;
+  }
 
-.footer #theme {
-  color: #c0ccda;
-}
+  /* * "Dark Box" styling for the input bar 
+   */
+  .newsletter-input {
+    background-color: #1a1a1a; /* --charcoal (Dark box) */
+    border: 1px solid #404040; /* --smoke */
+    color: #ffffff; /* --white */
+    padding: 10px 12px;
+    width: 100%;
+    margin-bottom: 10px; /* Kept reduced margin */
+    border-radius: 4px;
+    text-align: left; /* Left align input */
+    font-size: 1rem; /* Restored font size */
+    transition: border-color 0.3s, background-color 0.3s;
+  }
 
-.footer #theme img {
-  width: 32px;
-}
+  .newsletter-input:focus {
+    background-color: #000000; /* Darker on focus */
+    border-color: #17a2b8; /* --azure */
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(23, 162, 184, 0.1);
+  }
+  
+  .newsletter-input::placeholder {
+    color: #737373; /* --ash */
+    opacity: 0.8;
+  }
 
-.footer #hugo:hover {
-  margin-right: 5px;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-}
+  .btn-footer {
+    background: #ffffff; /* --white */
+    color: #0a0a0a; /* --ink */
+    border: 1px solid #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem; /* Restored font size */
+    letter-spacing: 1.5px;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+  }
 
+  .btn-footer:hover {
+    background: #17a2b8; /* --azure */
+    border-color: #17a2b8;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(23, 162, 184, 0.2);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.05);
+    margin-top: 30px; /* Kept reduced spacing */
+    padding-top: 20px; /* Kept reduced spacing */
+    font-size: 0.85rem; /* Restored font size */
+    color: #404040; /* --smoke */
+    letter-spacing: 0.5px;
+  }
+
+  .footer-bottom a {
+    color: #737373; /* --ash */
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0 10px;
+  }
+
+  .footer-bottom a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-bottom img {
+    opacity: 0.4;
+    transition: 0.3s;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .footer-bottom a:hover img {
+    opacity: 1;
+  }
 /* --- FOOTER END ---- */
 
 /* ============= Device specific fixes ======= */
