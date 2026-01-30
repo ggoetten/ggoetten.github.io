@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebra-Based on de Lima, G. G.</title>
-    <link>http://localhost:1313/tags/algebra-based/</link>
+    <link>https://ggoetten.github.io/tags/algebra-based/</link>
     <description>Recent content in Algebra-Based on de Lima, G. G.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/algebra-based/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ggoetten.github.io/tags/algebra-based/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AP Physics 1</title>
-      <link>http://localhost:1313/teaching/ap-physics-1-2025-11-10/</link>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-11-10/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/ap-physics-1-2025-11-10/</guid>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-11-10/</guid>
       <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
     </item>
     <item>
       <title>AP Physics 1</title>
-      <link>http://localhost:1313/teaching/ap-physics-1-2025-10-23/</link>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-10-23/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/ap-physics-1-2025-10-23/</guid>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-10-23/</guid>
       <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
     </item>
     <item>
       <title>AP Physics 1</title>
-      <link>http://localhost:1313/teaching/ap-physics-1-2025-09-29/</link>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-09-29/</link>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/ap-physics-1-2025-09-29/</guid>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-09-29/</guid>
       <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
     </item>
     <item>
       <title>AP Physics 1</title>
-      <link>http://localhost:1313/teaching/ap-physics-1-2025-06-10/</link>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-06-10/</link>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/ap-physics-1-2025-06-10/</guid>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-06-10/</guid>
       <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
     </item>
     <item>
       <title>AP Physics 1</title>
-      <link>http://localhost:1313/teaching/ap-physics-1-2025-03-04/</link>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-03-04/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/ap-physics-1-2025-03-04/</guid>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-03-04/</guid>
       <description>Algebra-based foundational physics course covering mechanics and fluids.</description>
     </item>
   </channel>
