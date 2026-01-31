@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conservation Laws on de Lima, G. G.</title>
+    <link>https://ggoetten.github.io/tags/conservation-laws/</link>
+    <description>Recent content in Conservation Laws on de Lima, G. G.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ggoetten.github.io/tags/conservation-laws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AP Physics 1: Algebra-Based</title>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-03-04/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-03-04/</guid>
+      <description>Delivering multiple 40-hour cohorts of comprehensive algebra-based physics curriculum.</description>
+    </item>
+  </channel>
+</rss>

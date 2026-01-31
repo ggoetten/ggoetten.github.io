@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rotational Dynamics on de Lima, G. G.</title>
+    <link>https://ggoetten.github.io/tags/rotational-dynamics/</link>
+    <description>Recent content in Rotational Dynamics on de Lima, G. G.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ggoetten.github.io/tags/rotational-dynamics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AP Physics C: Mechanics</title>
+      <link>https://ggoetten.github.io/teaching/ap-physics-1-2025-09-29/</link>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ggoetten.github.io/teaching/ap-physics-1-2025-09-29/</guid>
+      <description>Intensive calculus-based course covering kinematics, dynamics, and rotation.</description>
+    </item>
+  </channel>
+</rss>
